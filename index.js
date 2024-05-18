@@ -246,7 +246,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/jsondata", (req,res)=>{
-  res.json(data)
+  res.json(dta)
 })
 
 app.listen(PORT, () => {
